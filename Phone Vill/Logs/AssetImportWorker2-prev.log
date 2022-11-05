@@ -1,0 +1,560 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 7981 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/bluem/OneDrive/Documents/GitHub/Phone-Vill/Phone Vill
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61977
+Successfully changed project path to: C:/Users/bluem/OneDrive/Documents/GitHub/Phone-Vill/Phone Vill
+C:/Users/bluem/OneDrive/Documents/GitHub/Phone-Vill/Phone Vill
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 206.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bluem/OneDrive/Documents/GitHub/Phone-Vill/Phone Vill/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     3990 MB
+    Driver:   27.20.100.8478
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011203 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 185.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.629 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1629ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1134ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (672ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (186ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018528 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bluem\OneDrive\Documents\GitHub\Phone-Vill\Phone Vill\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bluem\OneDrive\Documents\GitHub\Phone-Vill\Phone Vill\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.241 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4243ms)
+		BeginReloadAssembly (403ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (3530ms)
+			LoadAssemblies (349ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1287ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (212ms)
+			SetupLoadedEditorAssemblies (1572ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (343ms)
+				ProcessInitializeOnLoadAttributes (1108ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.5 KB). Loaded Objects now: 3862.
+Memory consumption went from 133.7 MB to 133.5 MB.
+Total: 8.534400 ms (FindLiveObjects: 0.448300 ms CreateObjectMapping: 0.328100 ms MarkObjects: 7.507100 ms  DeleteObjects: 0.249200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47039.594418 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Switch_Lever_02.fbx
+  artifactKey: Guid(46827f48c1f697045ba9690e5bf012a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Switch_Lever_02.fbx using Guid(46827f48c1f697045ba9690e5bf012a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63917b4060c1114bce203b3de520ba89') in 0.433623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tree_Round_02.fbx
+  artifactKey: Guid(c7b5a477cbb8f434b9d678b33e507488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tree_Round_02.fbx using Guid(c7b5a477cbb8f434b9d678b33e507488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494a52457eeb995f84188a596d5adcb6') in 0.099291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Washingline_03.fbx
+  artifactKey: Guid(99bf790d2a4d96645af103eabf360362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Washingline_03.fbx using Guid(99bf790d2a4d96645af103eabf360362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbd9de7082822565bb94e4fa0cad820') in 0.109410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Veh_Car_Medium_01.fbx
+  artifactKey: Guid(9e3e05b5e4951d64a9412bf0e557e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Veh_Car_Medium_01.fbx using Guid(9e3e05b5e4951d64a9412bf0e557e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fded8afad6bafb8c44be5dc44e1ac105') in 0.357656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Paper_03.fbx
+  artifactKey: Guid(4672e905a94e7c842a52305e53f0cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Paper_03.fbx using Guid(4672e905a94e7c842a52305e53f0cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff3a34126ad2b5c524e4d9ad274f37d') in 0.071548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Switch_Remote_01.fbx
+  artifactKey: Guid(38a252d86312a544095accfca06575c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Switch_Remote_01.fbx using Guid(38a252d86312a544095accfca06575c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9fe408efff63bed03e01f0585c6ec6') in 0.115321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tree_Pine_02.fbx
+  artifactKey: Guid(a7113a38503da0b49bc2e2aa3e226b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tree_Pine_02.fbx using Guid(a7113a38503da0b49bc2e2aa3e226b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f56919fbd444627303b1ecf3f74bdf0') in 0.050002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tree_Square_01.fbx
+  artifactKey: Guid(7889a2323af84394a8c7e8cc9ce096ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tree_Square_01.fbx using Guid(7889a2323af84394a8c7e8cc9ce096ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dae4ee43cad8977a7329fd50d80a02') in 0.077952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_LargeSign_Milkshake_01.fbx
+  artifactKey: Guid(84246483d39d37a45a763afb9bd56849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_LargeSign_Milkshake_01.fbx using Guid(84246483d39d37a45a763afb9bd56849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a115705f7e628b26490799ecdd89b80a') in 0.057152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Door_01.fbx
+  artifactKey: Guid(46e2ced59c8b8024394bfcf3c53c8788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Door_01.fbx using Guid(46e2ced59c8b8024394bfcf3c53c8788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc329ac9b2b5d30223c1f23f33d4760e') in 0.120824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_LightPole_Base_01.fbx
+  artifactKey: Guid(4f59a66caa51dd342a8ba246d9d0264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_LightPole_Base_01.fbx using Guid(4f59a66caa51dd342a8ba246d9d0264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62378e0318fba6471db4ca1d00d1381b') in 0.075600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Veh_Car_Sports_01.fbx
+  artifactKey: Guid(773fa55be186bfc46910c191c5c57d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Veh_Car_Sports_01.fbx using Guid(773fa55be186bfc46910c191c5c57d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5896b36943f03b396d5eb346e998263') in 0.361782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_LightPole_CrossButton_01.fbx
+  artifactKey: Guid(0163278e6a1e5d74099ded2c752faa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_LightPole_CrossButton_01.fbx using Guid(0163278e6a1e5d74099ded2c752faa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94800e79fbcbecb19f9fe3487478bdf5') in 0.060250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_CarboardBox_01.fbx
+  artifactKey: Guid(b8d96795f225e2b498836e1750485720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_CarboardBox_01.fbx using Guid(b8d96795f225e2b498836e1750485720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177e6f97d04ad7b607c1bc8894a1561a') in 0.069598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Window_01.fbx
+  artifactKey: Guid(f4a376bce1d8c3842bda863d13d9711e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Window_01.fbx using Guid(f4a376bce1d8c3842bda863d13d9711e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa6b360137c9f8f88234624de5d6a27') in 0.048664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_CarboardBox_03.fbx
+  artifactKey: Guid(00342b5aad272a14cadca03dabd84ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_CarboardBox_03.fbx using Guid(00342b5aad272a14cadca03dabd84ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dea4e81d141424418cb45eeb107809') in 0.098106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Deckchair_01.fbx
+  artifactKey: Guid(6a4427b535f508a4b838389f0927e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Deckchair_01.fbx using Guid(6a4427b535f508a4b838389f0927e007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6725fa0478ef1d5b2056ef47a00b41ee') in 0.050631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tree_Round_01.fbx
+  artifactKey: Guid(bce0ebdc0cc8908418f3943bdf59a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tree_Round_01.fbx using Guid(bce0ebdc0cc8908418f3943bdf59a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eeffe75cbee5b449896664f7caf693a') in 0.082203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_LightPole_CrossLights_01.fbx
+  artifactKey: Guid(3f89b1171e621dd4f99699d16c50e9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_LightPole_CrossLights_01.fbx using Guid(3f89b1171e621dd4f99699d16c50e9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad7f1d9f99104991708ce430242ed52') in 0.055902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Water_Tower_01.fbx
+  artifactKey: Guid(1752fd9a5846d8941b89c3f290d0f2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Prop_Water_Tower_01.fbx using Guid(1752fd9a5846d8941b89c3f290d0f2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c9bd3c2f98b66be4111be0a1fcaa60') in 0.092920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Models/SM_Veh_Car_Sedan_01.fbx
+  artifactKey: Guid(2dfd189627cfe43479265db2e35e552c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Models/SM_Veh_Car_Sedan_01.fbx using Guid(2dfd189627cfe43479265db2e35e552c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b8e3f2b20c5a11a74462b11a31217b') in 0.442287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.400050 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pistol_01.fbx
+  artifactKey: Guid(710f9bac1a26064439306a44e742c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pistol_01.fbx using Guid(710f9bac1a26064439306a44e742c04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a5841edac65e23d0a092f1f0c0c5d') in 0.136214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Target_01.fbx
+  artifactKey: Guid(511b6c4c12f1e8a49a082f617e5966be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Target_01.fbx using Guid(511b6c4c12f1e8a49a082f617e5966be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf2281953f252f7072afcd153dc6009') in 0.059871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_TableTennis_Ball_02.fbx
+  artifactKey: Guid(a32c485aec1ecfd49bf6c4cebd9b96cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_TableTennis_Ball_02.fbx using Guid(a32c485aec1ecfd49bf6c4cebd9b96cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a9f921cd6c0f20c9d084b0617aa2f9') in 0.050858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pipe_01.fbx
+  artifactKey: Guid(f64e03b3220ede944bd586ef48b59148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pipe_01.fbx using Guid(f64e03b3220ede944bd586ef48b59148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290ed3a4a10eb78982bc4d93cccb0e6a') in 0.057005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Microphone_01.fbx
+  artifactKey: Guid(fba9484d89c10fb45bc74c04c93785ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Microphone_01.fbx using Guid(fba9484d89c10fb45bc74c04c93785ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a2afa62faf209d9fe9cc6aa2b3fb2b') in 0.059212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pipe_03.fbx
+  artifactKey: Guid(4c2d4014b78a5fb45a38f5247ed76183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pipe_03.fbx using Guid(4c2d4014b78a5fb45a38f5247ed76183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c83fe573bdbbed96e9df2ed37160380') in 0.050914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tennis_Ball_01.fbx
+  artifactKey: Guid(2852182a4be7eee4c9795ae8b80842fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Tennis_Ball_01.fbx using Guid(2852182a4be7eee4c9795ae8b80842fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f776dec07a91ce88fb084541f430d84') in 0.059432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Target_03.fbx
+  artifactKey: Guid(e233a9e22d00dfc4ca6ff911ee5e2e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Target_03.fbx using Guid(e233a9e22d00dfc4ca6ff911ee5e2e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8893455d908c579a57679aec9eace50') in 0.056432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Microphone_Stand_01.fbx
+  artifactKey: Guid(9a7fe0da1b5fc04448e8317395bf1b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Microphone_Stand_01.fbx using Guid(9a7fe0da1b5fc04448e8317395bf1b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2944cc87497fdefdd004708d80eab0b') in 0.053819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Synty_Cube_01.fbx
+  artifactKey: Guid(6cfe01e70a444224f8eb725e2b22452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Synty_Cube_01.fbx using Guid(6cfe01e70a444224f8eb725e2b22452d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1358d50dec6653dcd791fbc61ea3bc') in 0.050072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pipe_04.fbx
+  artifactKey: Guid(d28c1112dbc0180449970efc5b0b0279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Prop_Pipe_04.fbx using Guid(d28c1112dbc0180449970efc5b0b0279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d4ea849fb2fa4bf3250d07d4d166d1') in 0.056666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.761068 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cone_01P.prefab
+  artifactKey: Guid(917b3e362cb87ec4c9f396c33a955af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Primitive_Cone_01P.prefab using Guid(917b3e362cb87ec4c9f396c33a955af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6893ce22872a0e65b2b500e9c5f6c4db') in 0.045189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Prop_Plane_Ring_01.prefab
+  artifactKey: Guid(bc59902fe8272d54da1ae082ff755757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Prop_Plane_Ring_01.prefab using Guid(bc59902fe8272d54da1ae082ff755757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373d78798e4ada6d35fdf5f37bf3202a') in 0.037022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab
+  artifactKey: Guid(5527826a6315a224d850675a730c4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Crate_03.prefab using Guid(5527826a6315a224d850675a730c4f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee6d59f5b11db09fd188a7d76493dc3') in 0.049596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Cone_01.prefab
+  artifactKey: Guid(37e681eb08549004c9d9c2be529cbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Cone_01.prefab using Guid(37e681eb08549004c9d9c2be529cbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73e0ef76629bdb8b77775e93c9c65e9') in 0.048184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab
+  artifactKey: Guid(bbea6872df405a045862b0d1f277c5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Veh_Plane_Stunt_01.prefab using Guid(bbea6872df405a045862b0d1f277c5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af91acfd2efe4c89e471307e99871b67') in 0.073160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab
+  artifactKey: Guid(807bf6650795ad04395313d04ebe88c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Prop_Ladder_1x2_01P.prefab using Guid(807bf6650795ad04395313d04ebe88c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f598a95cdb5fe781633b602c27551fef') in 0.053726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab
+  artifactKey: Guid(c6865c562fd3f2841a92dc0cbbd6b4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Wep_WaterPistol_01.prefab using Guid(c6865c562fd3f2841a92dc0cbbd6b4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1e1d8d5d3f0ef2e01ad9f22fb8d325') in 0.048637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.703162 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_DoorFrame_01P.prefab
+  artifactKey: Guid(4a0ab548b1b39cf4b8b48726d5f4fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_DoorFrame_01P.prefab using Guid(4a0ab548b1b39cf4b8b48726d5f4fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041a1730c064cc812a9a4b987bfdade1') in 0.029163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab
+  artifactKey: Guid(d3f65bf385a3c3847ab550b32f3e53e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x3_01P.prefab using Guid(d3f65bf385a3c3847ab550b32f3e53e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b084a439bd5c6ccb9182e551569cb05') in 0.064402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab
+  artifactKey: Guid(f675c07d915406144ae3100b985c0abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.prefab using Guid(f675c07d915406144ae3100b985c0abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fff87457744a7987f2b381692f46c53') in 0.065590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.192212 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_04.prefab
+  artifactKey: Guid(097c26aede8f73e41a32d546bd00e97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Small_Rocks_04.prefab using Guid(097c26aede8f73e41a32d546bd00e97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d315cf1cfa9d0ec3f0fe75b70755b4d') in 0.031034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Tree_03.prefab
+  artifactKey: Guid(56edbd376562e9544ab88753fd3c4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Tree_03.prefab using Guid(56edbd376562e9544ab88753fd3c4682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80249482b441925514fd4308a50c3280') in 0.051706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Block_1x1_01P.prefab
+  artifactKey: Guid(bbc12ae2f967ec04e8c3c39eeb92733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Block_1x1_01P.prefab using Guid(bbc12ae2f967ec04e8c3c39eeb92733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5846776dff7a242b1af01a65280db53d') in 0.049733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab
+  artifactKey: Guid(280053154239720458c4b6093bfea66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab using Guid(280053154239720458c4b6093bfea66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32de05127c453b9ad68e15c987547e9') in 0.057522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Tree_02.prefab
+  artifactKey: Guid(1ce022d65e1e7b84d9e5ae4a479c39ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Tree_02.prefab using Guid(1ce022d65e1e7b84d9e5ae4a479c39ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accd89f346554bd59fd11897a38db518') in 0.055809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab
+  artifactKey: Guid(2bd56128040193346a96ac4ec4bfa455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Prefabs/SM_Generic_Ground_02.prefab using Guid(2bd56128040193346a96ac4ec4bfa455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9410e8363dde79e85766c2893523c5c') in 0.057497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.722611 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Textures/Polygon_Plane_Texture_02.png
+  artifactKey: Guid(addc2d43f6566e24d8bd5924661c6c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Textures/Polygon_Plane_Texture_02.png using Guid(addc2d43f6566e24d8bd5924661c6c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a99f87d6935c8147ed138357c0a06e') in 0.105979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Textures/PolygonStarter_Texture_01.png
+  artifactKey: Guid(6cf54faba48b51c45af7d22ca798531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Textures/PolygonStarter_Texture_01.png using Guid(6cf54faba48b51c45af7d22ca798531f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3532cb14a88b76dee03e5943c1c29c7c') in 0.052843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/Textures/PolygonStarter_Texture_04.png
+  artifactKey: Guid(051364296435f87449810911a2f9c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/Textures/PolygonStarter_Texture_04.png using Guid(051364296435f87449810911a2f9c4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecd8d3b1db5eb9b0a96c22a57677e2d') in 0.031045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.589931 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_01_Emission.png
+  artifactKey: Guid(c0cde391f6ee96749be5d6df0f1c83d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_01_Emission.png using Guid(c0cde391f6ee96749be5d6df0f1c83d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d03f45d733547fc90f613a6681330c4') in 0.037667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_01.png
+  artifactKey: Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_01.png using Guid(2a09470ada0c47849ad79d26363f8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ac398749c3ad7c41f872a170a769a0') in 0.052135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_06.png
+  artifactKey: Guid(39e6fbca0660715408ee44a3391e9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_06.png using Guid(39e6fbca0660715408ee44a3391e9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310089d32038c35cacba1933922c431d') in 0.053957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_06.png
+  artifactKey: Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_06.png using Guid(bbc54c0e722a346408cd09eef6dc0cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8c248f2668e5362745432dfe6386e6') in 0.054320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_04.png
+  artifactKey: Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_Grid_04.png using Guid(c7c5239ae4b2ace4d8774918a50a940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87a96a2bb510743506afa38e0d404df') in 0.050304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_Metallic.tga
+  artifactKey: Guid(9dec2143ea353f54797f8eb01cf46827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Textures/PolygonPrototype_Texture_Metallic.tga using Guid(9dec2143ea353f54797f8eb01cf46827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2bef97d640e4e9d51af3d91adcd144') in 0.064348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.778348 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/Character_FPSHands_02.fbx
+  artifactKey: Guid(dacb33b4a6c2e3e4486be79c593a23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/Character_FPSHands_02.fbx using Guid(dacb33b4a6c2e3e4486be79c593a23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2776328caf8a7176e294582a0861f8c0') in 0.154322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_DoorFrame_01.fbx
+  artifactKey: Guid(c7bd79f25c690294f893f8905d2264f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_DoorFrame_01.fbx using Guid(c7bd79f25c690294f893f8905d2264f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f0ad48d61e0f0cd3353c6e39313391') in 0.066424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Floor_5x5_01.fbx
+  artifactKey: Guid(1814c5a2e1817d745a0616837e37dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Floor_5x5_01.fbx using Guid(1814c5a2e1817d745a0616837e37dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0a35b87f5e40c668f33fc282e739cb') in 0.063930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_FloorAngle_1x1_01P.fbx
+  artifactKey: Guid(4984bd6409c68b741b7d860318f764e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_FloorAngle_1x1_01P.fbx using Guid(4984bd6409c68b741b7d860318f764e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f5992e10fe8b17e4bbb739b8205474') in 0.059324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_FloorHole_1x1_01P.fbx
+  artifactKey: Guid(1493d176cf288564ea48497dc492a25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_FloorHole_1x1_01P.fbx using Guid(1493d176cf288564ea48497dc492a25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57ca791c919800ebdd8613bd1e0c57b') in 0.074444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Block_1x1_01.fbx
+  artifactKey: Guid(caed417d0c17a134696ff2ef8b52a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Block_1x1_01.fbx using Guid(caed417d0c17a134696ff2ef8b52a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef944b442376cce1e35eff34eb417d8') in 0.069121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Block_1x1_02.fbx
+  artifactKey: Guid(d6432d0969107d640bf77b6507ea972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Block_1x1_02.fbx using Guid(d6432d0969107d640bf77b6507ea972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f57b289d897c02018d356794ca1bbe0') in 0.067717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Column_2x3_01P.fbx
+  artifactKey: Guid(e939321fba13eac4e8154147baf7b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Column_2x3_01P.fbx using Guid(e939321fba13eac4e8154147baf7b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620aa1804f8cb0ec61ee4dcb16362707') in 0.068379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Column_1x3_01.fbx
+  artifactKey: Guid(f75e2e3dd3c0f7847b6e3d95f101e29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonStarter/PolygonPrototype/Models/SM_Buildings_Column_1x3_01.fbx using Guid(f75e2e3dd3c0f7847b6e3d95f101e29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0654c08ef686d9defece56cd8b49059') in 0.066810 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
