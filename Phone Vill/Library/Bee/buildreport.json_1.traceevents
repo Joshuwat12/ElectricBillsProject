@@ -1,0 +1,601 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1667748688377859, "dur": 3795890, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667748688378058, "dur": 12527, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667748688390605, "dur": 32383, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667748688422991, "dur": 3040619, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667748691463612, "dur": 703607, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667748692167222, "dur": 6527, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667748692175339, "dur": 33, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1667748690791801, "dur": 647622, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667748690792560, "dur": 31396, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667748691426746, "dur": 3789, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667748691430537, "dur": 8882, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667748691431081, "dur": 7380, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667748691443754, "dur": 1126, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667748691442868, "dur": 2030, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667748692177609, "dur": 828, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667748691503359, "dur":23272, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748691526640, "dur":89, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667748691526759, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667748691526777, "dur":543, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667748691527351, "dur":487, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748691527838, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126369, "dur":264, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126634, "dur":260, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126894, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126897, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126906, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126907, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126910, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126910, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126914, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126914, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126918, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126919, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126933, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126933, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126937, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126937, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126940, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126941, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126946, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126947, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126968, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126969, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126973, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126973, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692126978, "dur":28, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127006, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127012, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127013, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127018, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127019, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127022, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127023, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127029, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127052, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692127138, "dur":1722, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667748691527485, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691527844, "dur":3754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691531600, "dur":10640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667748691542243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691542323, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667748691545198, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1667748691545345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691545903, "dur":52434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1667748691598378, "dur":27096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691625479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691625488, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691627047, "dur":52215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691679265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691679273, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691681571, "dur":16824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691698398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691698404, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691700523, "dur":26003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691726532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691726543, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691728627, "dur":19621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691748254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691748263, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691750088, "dur":27524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691777615, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691777624, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691779411, "dur":2001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691781417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691781427, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691782931, "dur":41165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691824100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691824110, "dur":5406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691830048, "dur":62048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691892181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691892193, "dur":8583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691900816, "dur":96476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748691997296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667748691997302, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667748692001185, "dur":125181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691527522, "dur":325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691527848, "dur":3752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691531601, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667748691531780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691537864, "dur":7538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1667748691545449, "dur":48155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691593612, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691593845, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691597496, "dur":34838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691632338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691632346, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691634890, "dur":33317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691668213, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691668226, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691671493, "dur":23685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691695181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691695194, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691697420, "dur":39204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691736628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691736635, "dur":5157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691741873, "dur":28782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691770658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691770664, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691774018, "dur":54634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691828657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691828666, "dur":10953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691839669, "dur":149041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691988714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691988721, "dur":7734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667748691996624, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1667748691996691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667748691996696, "dur":7788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1667748692004521, "dur":121857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667748691527551, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667748691527855, "dur":3736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667748691531601, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1667748691531832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667748691593919, "dur":297038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1667748691891010, "dur":37010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667748691928026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667748691928036, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667748691929708, "dur":58704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667748691988418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667748691988426, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667748691992311, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1667748691992359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667748691992431, "dur":8665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1667748692001140, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1667748692001276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667748692001307, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1667748692002557, "dur":123874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748691527545, "dur":306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748691527852, "dur":3726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748691531582, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1667748691531768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748691535082, "dur":9088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1667748691544223, "dur":82347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748691626573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748691626645, "dur":9892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748691636575, "dur":111046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748691747625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748691747636, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748691749928, "dur":36452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748691786386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748691786398, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748691788444, "dur":25923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748691814403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748691814410, "dur":9551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748691824012, "dur":188575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748692012589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667748692012597, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667748692015266, "dur":111120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691527569, "dur":289, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691527859, "dur":3750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691531610, "dur":10373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667748691541986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691542084, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667748691544136, "dur":49503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691593678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691594142, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691597863, "dur":78037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691675904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691675913, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691677397, "dur":17435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691694836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691694843, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691697150, "dur":34040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691731194, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691731211, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691733546, "dur":26372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691759922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691759933, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691761393, "dur":149356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691910754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748691910762, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748691912726, "dur":98740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748692011469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667748692011476, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667748692012772, "dur":113600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691527593, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691527938, "dur":3656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691531596, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1667748691531785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691538093, "dur":6169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1667748691544426, "dur":66534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1667748691610967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691610976, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1667748691613206, "dur":20308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691633519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691633530, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691634986, "dur":100719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691735711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691735721, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691738565, "dur":26124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691764692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691764724, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691766396, "dur":22857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691789258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691789268, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691791328, "dur":35425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691826758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691826880, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691830178, "dur":81735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691911917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748691911923, "dur":3871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748691915841, "dur":207581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748692123426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667748692123433, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667748692126300, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1667748692126301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691527616, "dur":328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691527945, "dur":3640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691531591, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1667748691532116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691595076, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1667748691597867, "dur":23866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691621737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691621742, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691623525, "dur":18183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691641713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691641732, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691643565, "dur":30490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691674060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691674071, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691675490, "dur":18671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691694167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691694178, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691696242, "dur":18823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691715069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691715087, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691717137, "dur":84990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691802130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691802136, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691804227, "dur":1006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691805237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691805243, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691806616, "dur":23732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691830352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691830360, "dur":9086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691839493, "dur":141425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691980921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691980928, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667748691983298, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1667748691983345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691983351, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1667748691985717, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667748691985764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691985769, "dur":6524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level4.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667748691992337, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1667748691992430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748691992435, "dur":8111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1667748692000597, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1667748692000647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667748692000655, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1667748692002088, "dur":124277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691527634, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691527948, "dur":3640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691531589, "dur":10341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1667748691541934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691541947, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1667748691543647, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1667748691543775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691543780, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1667748691545886, "dur":15519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691561410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691594112, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691597590, "dur":23722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691621316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691621324, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691623172, "dur":45722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691668898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691668982, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691671292, "dur":27696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691699015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691699081, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691701637, "dur":18809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691720450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691720459, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691722538, "dur":18031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691740572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691740580, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691743227, "dur":20843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691764074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691764081, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691765871, "dur":35405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691801283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691801296, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691803396, "dur":50811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691854213, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691854225, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691855928, "dur":125326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691981257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691981264, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667748691983784, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1667748691983925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691983931, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1667748691985918, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1667748691986032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691986037, "dur":6046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level4" }}
+,{ "pid":12345, "tid":8, "ts":1667748691992121, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1667748691992157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667748691992161, "dur":11898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1667748692004092, "dur":122320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691527654, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691527954, "dur":3649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691531604, "dur":10065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1667748691541672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691542205, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1667748691544686, "dur":49446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill.exe" }}
+,{ "pid":12345, "tid":9, "ts":1667748691594135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691594140, "dur":3639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill.exe" }}
+,{ "pid":12345, "tid":9, "ts":1667748691597828, "dur":22906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691620739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691620862, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691622650, "dur":19444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691642097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691642104, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691643696, "dur":67020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691710720, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691710730, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691712521, "dur":27602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691740127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691740136, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691742826, "dur":98948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691841779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691841790, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691845141, "dur":34453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691879599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748691879610, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748691881540, "dur":161459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748692043003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667748692043010, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667748692044892, "dur":81498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691527673, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691527956, "dur":3647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691531603, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1667748691531808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691543306, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1667748691545388, "dur":48259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691593681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691593895, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691597766, "dur":34036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691631811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691631825, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691634498, "dur":26329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691660831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691660841, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691662797, "dur":38387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691701187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691701195, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691703203, "dur":24374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691727581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691727590, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691728986, "dur":18286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691747278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691747289, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691749821, "dur":20709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691770534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691770561, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691772882, "dur":102917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691875805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748691875851, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748691878048, "dur":159552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748692037631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667748692037639, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667748692039901, "dur":86521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691527699, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691527959, "dur":3616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691531582, "dur":25796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1667748691557384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691594379, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1667748691596454, "dur":39783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691636241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691636263, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691638467, "dur":19014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691657487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691657498, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691659174, "dur":17795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691676973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691676980, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691679161, "dur":28116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691707284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691707296, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691710100, "dur":18450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691728553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691728562, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691730183, "dur":45822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691776008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691776015, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691778160, "dur":193888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691972063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691972092, "dur":8634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667748691980768, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1667748691980811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691980817, "dur":4209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1667748691985071, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1667748691985947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691985953, "dur":6024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1667748691992033, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1667748691992085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691992092, "dur":3802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1667748691995936, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1667748691996001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667748691996009, "dur":12558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1667748692008596, "dur":117773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691527713, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691527963, "dur":3619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691531583, "dur":9333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1667748691540920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691541015, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1667748691542819, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1667748691542947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691542953, "dur":53802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1667748691596814, "dur":38551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691635368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691635377, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691639254, "dur":30270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691669528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691669535, "dur":4598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691674209, "dur":22592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691696805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691696813, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691700208, "dur":18054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691718266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691718275, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691720361, "dur":20862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691741236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691741243, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691743548, "dur":19670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691763223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691763233, "dur":4498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691767791, "dur":46071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691813866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691813874, "dur":5366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691819288, "dur":75950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691895244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748691895254, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748691898510, "dur":104909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748692003423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667748692003430, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667748692005239, "dur":121143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667748691527729, "dur":326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667748691528055, "dur":3547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667748691531602, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1667748691531816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667748691543108, "dur":209582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1667748691752736, "dur":22225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667748691774966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667748691774976, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667748691777379, "dur":85054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667748691862437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667748691862491, "dur":6996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667748691869528, "dur":185138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667748692054669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667748692054677, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667748692056053, "dur":70362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691527747, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691528061, "dur":3540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691531601, "dur":10620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1667748691542224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691542297, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1667748691544231, "dur":226575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691770809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691770815, "dur":30751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691801615, "dur":2515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691804133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691804142, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691807357, "dur":940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691808300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691808309, "dur":3331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691811683, "dur":24478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691836167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691836178, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691839720, "dur":69766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691909494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691909506, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691912745, "dur":84882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748691997630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748691997637, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667748692000690, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1667748692000734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667748692000739, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1667748692002154, "dur":124271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691527818, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691528064, "dur":3542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691531608, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1667748691532100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691594481, "dur":11020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1667748691605560, "dur":20096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691625659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691625666, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691627134, "dur":18741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691645881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691645890, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691647930, "dur":31754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691679687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691679719, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691682419, "dur":15759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691698181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691698186, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691700336, "dur":38105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691738446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691738454, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691740206, "dur":29920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691770132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691770143, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691772337, "dur":86194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691858535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691858545, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691860246, "dur":51019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691911269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691911276, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691912781, "dur":36961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691949751, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691949765, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667748691951485, "dur":9233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":15, "ts":1667748691960724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691961612, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":15, "ts":1667748691962855, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1667748691962898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691962985, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1667748691964224, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":15, "ts":1667748691964272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691964278, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":15, "ts":1667748691965372, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":15, "ts":1667748691965410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691965415, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":15, "ts":1667748691966584, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":15, "ts":1667748691966628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691966633, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":15, "ts":1667748691967702, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1667748691967743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691967749, "dur":10906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1667748691978697, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":15, "ts":1667748691978737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691978745, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":15, "ts":1667748691980162, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":15, "ts":1667748691980210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691980220, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":15, "ts":1667748691982120, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1667748691982158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691982163, "dur":7330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1667748691989541, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level3.resS" }}
+,{ "pid":12345, "tid":15, "ts":1667748691989583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691989588, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level3.resS" }}
+,{ "pid":12345, "tid":15, "ts":1667748691992039, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level2.resS" }}
+,{ "pid":12345, "tid":15, "ts":1667748691992091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667748691992096, "dur":10169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/level2.resS" }}
+,{ "pid":12345, "tid":15, "ts":1667748692002299, "dur":124120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691527836, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691527840, "dur":3718, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691531582, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1667748691531589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691533642, "dur":554, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1667748691534200, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1667748691534272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691534733, "dur":7740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1667748691542476, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1667748691542628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691542685, "dur":216039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1667748691758778, "dur":42578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748691801360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691801367, "dur":4449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748691805857, "dur":7473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748691813335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691813345, "dur":4992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748691818383, "dur":18718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748691837106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691837114, "dur":2860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748691840024, "dur":76377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748691916405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748691916414, "dur":4553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748691921047, "dur":176439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748692097490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667748692097498, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/joshu/Documents/GitHub/Phone-Vill/Phone Vill_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667748692099135, "dur":27286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667748692130425, "dur":1635, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667748692178623, "dur": 1853, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667748692175314, "dur": 5243, "ph": "X", "name": "Write chrome-trace events", "args": {} },
