@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Car))]
 public class PlayerCar : MonoBehaviour
 {
+    public Transform camera;
+
     Car car;
 
     // Start is called before the first frame update
@@ -33,5 +35,11 @@ public class PlayerCar : MonoBehaviour
 
         car.isBraking = Input.GetKey(KeyCode.DownArrow);
         car.Drive();
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            camera.localPosition = new Vector3(camera.localPosition.x, camera.localPosition.y, -camera.localPosition.z);
+        }
+        camera.LookAt(transform);
     }
 }

@@ -68,7 +68,7 @@ public class Car : MonoBehaviour
                     else { currentRoad = currentRoad.rightLane; }
                     changeDir = Direction.Straight;
                     change = 0;
-                    transform.position = posOnRoad;
+                    transform.position = currentRoad.DistanceToPos(distance);
                 }
                 else
                 {
@@ -113,14 +113,14 @@ public class Car : MonoBehaviour
     public float DistanceToCar(Car other, Road check = null, float d = 0)
     {
         if (!check) { check = currentRoad; }
-        if (check == other.currentRoad && distance < other.distance)
+        if (check == other.currentRoad && distance <= other.distance)
         {
             return other.distance - distance;
         }
 
         d -= distance;
         List<Road> roadsChecked = new List<Road>();
-        while (!roadsChecked.Contains(check) && !check.isEnd)
+        while (!roadsChecked.Contains(check))
         {
             d += check.GetLength();
             roadsChecked.Add(check);
@@ -145,7 +145,7 @@ public class Car : MonoBehaviour
         foreach(Car c in FindObjectsOfType<Car>())
         {
             d = DistanceToCar(c, check, startDistance);
-            if (d >= 0 && d < nearestD)
+            if (d >= 0 && d < nearestD && c != this)
             {
                 nearestC = c;
                 nearestD = d;
@@ -153,5 +153,10 @@ public class Car : MonoBehaviour
         }
 
         return nearestC;
+    }
+
+    public float DistToNearestCar(Road check = null, float d = 0)
+    {
+        return DistanceToCar(NearestCar(check, d), check, d);
     }
 }

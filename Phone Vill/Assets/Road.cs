@@ -6,7 +6,6 @@ public class Road : MonoBehaviour
 {
     public Car.Direction turnType = Car.Direction.Straight;
     public Road straightRoad, leftLane, rightLane, leftFork, rightFork;
-    public bool isEnd = false;
 
     Vector3 endpoint;
 

@@ -357,8 +357,10 @@
 "Assets/Car.cs"
 "Assets/Cone.cs"
 "Assets/MiniMap.cs"
+"Assets/NPC.cs"
 "Assets/PlayerCar.cs"
 "Assets/Road.cs"
+"Assets/Spawner.cs"
 -langversion:9.0
 
 /deterministic
