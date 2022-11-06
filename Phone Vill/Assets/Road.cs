@@ -4,34 +4,28 @@ using UnityEngine;
 
 public class Road : MonoBehaviour
 {
-    public enum RoadType
-    {
-        Straight,
-        LeftTurn,
-        RightTurn
-    }
-
-    public RoadType turnType = RoadType.Straight;
-    public Transform straightRoad, leftLane, rightLane, leftFork, rightFork;
+    public Car.Direction turnType = Car.Direction.Straight;
+    public Road straightRoad, leftLane, rightLane, leftFork, rightFork;
+    public bool isEnd = false;
 
     Vector3 endpoint;
 
     // Start is called before the first frame update
     void Start()
     {
-        endpoint = straightRoad.position;
+        endpoint = straightRoad.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        endpoint = straightRoad.position;
+        endpoint = straightRoad.transform.position;
     }
 
     public float GetLength()
     {
         float d = Vector3.Distance(transform.position, endpoint);
-        if (turnType == RoadType.Straight)
+        if (turnType == Car.Direction.Straight)
         {
             return d;
         }
@@ -53,7 +47,6 @@ public class Road : MonoBehaviour
     {
         Vector3 straight = Vector3.Lerp(transform.position, endpoint, portion);
         Vector3 delta = endpoint - transform.position;
-        float midY = transform.position.y + endpoint.y / 2;
         float downCurve = Mathf.Sin(portion * Mathf.PI / 2);
         float upCurve = 1 - Mathf.Cos(portion * Mathf.PI / 2);
         float x = 0;
@@ -61,9 +54,9 @@ public class Road : MonoBehaviour
 
         switch (turnType)
         {
-            case RoadType.Straight:
+            case Car.Direction.Straight:
                 return straight;
-            case RoadType.LeftTurn:
+            case Car.Direction.Left:
                 switch (Mathf.Sign(delta.x * delta.z))
                 {
                     case 1:
@@ -78,7 +71,7 @@ public class Road : MonoBehaviour
                         return straight;
                 }
                 break;
-            case RoadType.RightTurn:
+            case Car.Direction.Right:
                 switch (Mathf.Sign(delta.x * delta.z))
                 {
                     case -1:
@@ -98,7 +91,20 @@ public class Road : MonoBehaviour
         float fx = endpoint.x * x + transform.position.x * (1 - x);
         float fz = endpoint.z * z + transform.position.z * (1 - z);
 
-        print("Delta: " + delta);
-        return new Vector3(fx, midY, fz);
+        return new Vector3(fx, straight.y, fz);
+    }
+
+    public Vector3 DistanceToPos(float distance)
+    {
+        if (distance >= GetLength())
+        {
+            return straightRoad.DistanceToPos(distance - GetLength());
+        }
+        return PortionToPos(DistanceToPortion(distance));
+    }
+
+    void OnDrawGizmos()
+    {
+        // Gizmos.DrawLine(transform.position, endpoint);
     }
 }
