@@ -55,7 +55,17 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        Destroy(gameObject);
-        Destroy(collider.gameObject);
+        if (collider.GetComponent<Car>())
+        {
+            Destroy(gameObject);
+            if (collider.GetComponent<PlayerCar>())
+            {
+                collider.GetComponent<PlayerCar>().Failed();
+            }
+            else
+            {
+                Destroy(collider.gameObject);
+            }
+        }
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Car))]
 public class PlayerCar : MonoBehaviour
@@ -41,5 +42,10 @@ public class PlayerCar : MonoBehaviour
             camera.localPosition = new Vector3(camera.localPosition.x, camera.localPosition.y, -camera.localPosition.z);
         }
         camera.LookAt(transform);
+    }
+    
+    public void Failed()
+    {
+        SceneManager.LoadScene(4);
     }
 }
